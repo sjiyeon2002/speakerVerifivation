@@ -1,0 +1,44 @@
+name: thisone
+description: "for a graduation"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.2.8
+  mysql_client: ^0.0.27
+  shared_preferences: ^2.1.0
+  crypto: ^3.0.3
+  cupertino_icons: ^1.0.2
+  audioplayers: ^6.0.0
+  file_picker: ^8.0.3
+  image_picker: ^1.1.2
+  http: ^1.2.2
+
+dev_dependencies:
+  flutter_login: ^5.0.0
+  file_picker: ^8.0.0+1
+  dio: ^5.4.2+1
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_native_splash: ^2.4.2
+
+flutter:
+  uses-material-design: true
+
+  # Assets section for splash screen images
+  assets:
+    - assets/splash.png
+
+flutter_native_splash:
+  color: "#ffffff" # 배경 색상 (변경 가능)
+  image: assets/splash.png  # 스플래쉬 화면에 사용할 이미지 경로
+  fullscreen: true  # 풀스크린 사용 설정
+  android: true  # 안드로이드에서 스플래쉬 화면 사용
+  ios: true  # iOS에서 스플래쉬 화면 사용

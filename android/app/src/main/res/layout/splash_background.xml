@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1080dp"
+    android:height="1920dp"
+    android:viewportWidth="1080"
+    android:viewportHeight="1920">
+    <group>
+        <path
+            android:fillColor="#FFFFFFFF"
+            android:pathData="M0 0H1080V1920H0z"/>
+        <path
+            android:fillColor="#FF5BDA77"
+            android:pathData="M0 0H1080V179H0z"/>
+        <path
+            android:fillColor="#FFFEF7FF"
+            android:pathData="M72 97.42c-3.47 0-6.42-1.16-8.85-3.47-2.43-2.3-3.65-5.11-3.65-8.4V61.78c0-3.3 1.22-6.1 3.65-8.41 2.43-2.3 5.38-3.46 8.85-3.46 3.47 0 6.42 1.15 8.85 3.46 2.43 2.3 3.65 5.11 3.65 8.41v23.75c0 3.3-1.22 6.1-3.65 8.41-2.43 2.31-5.38 3.47-8.85 3.47Zm-4.17 27.7v-12.17c-7.22-0.92-13.2-3.99-17.91-9.2-4.73-5.21-7.09-11.28-7.09-18.2h8.34c0 5.47 2.03 10.13 6.09 14 4.06 3.85 8.98 5.78 14.74 5.78s10.68-1.93 14.74-5.79c4.06-3.86 6.1-8.52 6.1-14h8.33c0 6.93-2.36 13-7.09 18.21-4.72 5.21-10.7 8.28-17.91 9.2v12.17h-8.34Z"/>
+        <!-- Add the rest of your path data here -->
+    </group>
+</vector>

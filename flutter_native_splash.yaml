@@ -1,0 +1,15 @@
+flutter_native_splash:
+  # 이미지 경로 설정
+  image: assets/splash.png
+  color: "#42a5f5"  # 배경색 설정 (필요하지 않다면 제거 가능)
+
+  # Android 12 이상 버전 설정
+  android_12:
+    image: assets/splash.png
+
+  # 스플래시 이미지 크기 및 위치 설정 (옵션)
+  android_gravity: fill  # 이미지를 화면에 꽉 차게 설정
+  ios_content_mode: scaleAspectFill  # iOS에서 이미지를 화면에 맞춤
+
+  # 전체화면 설정
+  fullscreen: true
